@@ -3,7 +3,7 @@
 //  AddressLookupMultiViewUITests
 //
 //  Created by Stephen Keable on 27/02/2018.
-//  Copyright © 2018 Stephen Keable. All rights reserved.
+//  Copyright © 2018 Stephen Keable, under MIT licence.
 //
 
 import XCTest
