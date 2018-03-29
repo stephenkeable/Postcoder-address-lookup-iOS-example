@@ -38,6 +38,8 @@ extension PostcoderCountries {
     
 }
 
+// Could create these from JSON file or from API endpoint
+
 // Create a list of countries, used in the CountryController
 let defaultCountries = PostcoderCountries(countries: [
     PostcoderCountry(name: "United Kingdom", code: "GB"),
