@@ -116,7 +116,7 @@ extension PostcoderAddresses {
         if json.count > 0 {
             
             // Loop through response and create PostcoderAddress instances in array
-            self.addresses = json.flatMap { PostcoderAddress(addressJson: $0) }
+            self.addresses = json.compactMap { PostcoderAddress(addressJson: $0) }
             
             // Pluck the nextpage field out from last address, if exists. With sensible alt if not present.
             

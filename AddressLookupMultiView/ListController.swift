@@ -78,7 +78,7 @@ class ListController: UIViewController, UITableViewDataSource, UITableViewDelega
                 self.addressList.reloadData()
                 
                 // Scroll to top of table view, mainly for when someone performs more than one search
-                self.addressList.scrollToRow(at: IndexPath(row: 0, section:0), at: UITableViewScrollPosition.top, animated: true)
+                self.addressList.scrollToRow(at: IndexPath(row: 0, section:0), at: UITableView.ScrollPosition.top, animated: true)
                 
             } else {
                 if error == .noResultsFound {
